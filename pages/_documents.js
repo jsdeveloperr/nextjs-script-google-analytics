@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
-
 class GlobalDocument extends Document {
 
   render() {
@@ -28,4 +26,4 @@ class GlobalDocument extends Document {
   }
 }
 
-export default DocumGlobalDocumentent;
+export default GlobalDocument;
