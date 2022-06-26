@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 9%;
+  color: white;
+  background: hsla(230, 8%, 15%, .9);
+  backdrop-filter: saturate(180%) blur(16px);
+  -wwbkit-backdrop-filter: saturate(180%) blur(16px); 
+  box-shadow: 0 6px 4px hsla(0, 4%, 15%, .2);
+}
